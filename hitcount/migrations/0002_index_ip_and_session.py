@@ -21,6 +21,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='hitcount',
             name='object_pk',
-            field=models.PositiveIntegerField(verbose_name='object ID'),
+            field=models.UUIDField(verbose_name='object ID'),
         ),
     ]
